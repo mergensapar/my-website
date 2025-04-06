@@ -1,0 +1,65 @@
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Başlığı</title>
+  <link rel="stylesheet" href="style.css">
+  
+   <!-- Google Fonts'tan Montserrat fontu -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   <div>
+
+  <div class="navbar">
+     <div class="left-group">
+        <a href="#" class="logo" onclick="scrollToTop()">
+        <i class="fas fa-gem" style="margin-right: 8px;"></i>
+        Mergo
+    </a>
+</div>
+
+     <div class="search-container">
+        <input type="text" class="search-input" id="searchBox" placeholder="Find..." oninput="searchFunction()">
+        <span class="search-icon" id="searchIcon" onclick="toggleClear()">🔍</span>
+      </div>
+
+  </div>
+
+  <div class="menu">
+    <a class="menu-btn home" onclick="toggleHome()">Anasayfa</a>
+    <a class="menu-btn about" href="#">Hakkımızda</a>
+    <a class="menu-btn contact" href="#">İletişim</a>
+  </div>
+
+  <div class="content-section">
+    <!-- SOL TARAF: YAZI -->
+    <div class="intro-section">
+      <h2>🎓 JavaScript'e Hoş Geldin!</h2>
+      <p>
+        Burada <strong>sıfırdan JavaScript</strong> öğrenebilir, <em>interaktif örneklerle</em> bilginizi geliştirebilir,
+        kendi projelerinizi oluşturacak seviyeye ulaşabilirsiniz.
+      </p>
+  
+      <div class="feature-boxes">
+        <div class="feature-item">✅ Temel JavaScript dersleri</div>
+        <div class="feature-item">💡 Gerçek projelerle uygulamalı pratik</div>
+        <div class="feature-item">🧠 Mini quiz ve testlerle pekiştirme</div>
+        <div class="feature-item">🚀 İleri seviye algoritmalara hazırlık</div>
+      </div>
+  
+      <p class="cta-text">
+        Hadi başlayalım! Kod dünyası seni bekliyor. 💻🔥
+      </p>
+    </div>
+  
+    <!-- SAĞ TARAF: GIF -->
+    <div class="gif-section">
+      <img src="src/gif/javascript.gif" alt="Kodlayan animasyon" />
+    </div>
+  </div>      
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar {
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; 
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Mergo sola, menü sağa */
+    
+  }
+
+  .left-group {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Mergo ile arama kutusu arası boşluk */
+  }
+
+
+  .logo {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(8, 1, 1);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer; /* Tıklanabilir olduğunu göstermek için */
+  } 
+
+  .search-container {
+    position: relative;
+    border: 2px solid #ffffff80; /* beyaz yarı saydam çerçeve */
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* hafif gölge */
+    transition: box-shadow 0.2s ease;
+  }
+
+  .search-container:focus-within {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.4); /* aktifken mavi gölge */
+  }
+
+  .search-input {
+    padding: 8px 35px 8px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none; /* mavi kenarlığı kaldır */
+    background-color: transparent;
+    width: 160px;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .menu a {
+    color: rgb(10, 2, 2);
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+  .menu-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* köşe yumuşatma */
+  background-color: #ffffff;
+  color: #4682B4;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-btn:hover {
+    background-color: #4682B4;
+    color: white; /* Gökyüzü mavi ton */
+  }
+
+
+  .home-section {
+    display: block;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #f4faff;
+    border-top: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap; /* responsive için */
+  }
+  
+  .intro-section {
+    flex: 1;
+    background-color: #f0f8ff;
+    margin-left: 0;         /* sola yaslamak için */
+    margin-right: auto;     /* sağdan boşluk bırakır */
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    min-width: 300px;
+    padding-left: 20px
+  }
+  
+  .intro-section h2 {
+    color: #2c5282;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .intro-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .feature-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item {
+    background-color: #e6f2ff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  .cta-text {
+    font-weight: bold;
+    font-size: 50px;
+    color: #1a365d;
+  }
+  
+  .gif-section {
+    flex-shrink: 0;
+    width: 320px;
+    max-width: 100%;
+  }
+  
+  .gif-section img {
+    width: 110%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+  
